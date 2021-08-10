@@ -1,0 +1,107 @@
+/* AFISARE PRODUSE */
+.listing {
+  margin-bottom: 30px;
+}
+.listing, .listing a, .detalii a {
+  text-decoration: none;
+  color:#5C3979;
+  text-align: center;
+}
+
+.listing a:hover {
+  color: #B898C3;
+  transition: all 0.3s ease 0s;
+}
+
+.listing h4, h6 {
+  font-weight:300;
+}
+.listing img {
+  width: auto;
+  height: 300px;
+  border: 40px solid;
+  border-color: #B898C3;
+  transition: filter 0.3s ease 0s;
+}
+.listing img:hover {
+  filter: brightness(90%);
+}
+
+.input-listing {
+    width: 60px;
+}
+
+.buton, .input-listing{
+  border: 1px solid #008C99;
+  background-color: #008C99;
+  padding: 5px 10px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #F4F3EE;
+  transition: background-color 0.3s ease 0s;
+}
+
+.buton:hover, .input-listing{
+  background-color: #F4F3EE;
+  color: #008C99;
+}
+
+.info {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+.hide {
+  display: none;
+}
+
+/* PAGINA HOME - MAGAZIN */
+
+.product-price {
+  margin: 0px 0px 5px 0px;
+}
+.categorie-prod-home {
+  box-shadow: 0px 0px 2px #B898C3;
+  margin-bottom: 40px;
+  background-color: #fdfaf7;
+}
+
+.categorie-prod-home .row {
+  padding:10px 0px;
+}
+
+.categorie-prod-home .input-listing{
+  background-color: #fdfaf7;
+}
+
+.head-prod-home {
+  background-color: #4A2E61;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.head-prod-home h3, .head-prod-home a {
+  text-align: center;
+  letter-spacing: 2px;
+  color:#fdfaf7;
+  transition: 0.3s ease 0s;
+}
+.head-prod-home a:hover{
+  text-decoration: none;
+  border-bottom: 1px solid #B898C3;
+  color:#B898C3;
+}
+
+.categorie-prod-home .listing {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.categorie-prod-home .listing img{
+  width: auto;
+  height: 250px;
+  border: 10px solid #B898C3;
+}

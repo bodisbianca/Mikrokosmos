@@ -1,0 +1,151 @@
+.produs-nou{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+.produs-nou select {
+    width:177px;
+    border:1px solid 
+}
+.produs-nou textarea {
+    margin:0px 15px;
+}
+
+.stare-comanda .form-icons{
+    width: 30%;
+}
+.stare-comanda label {
+    margin-left:20px;
+}
+
+
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #5C3979;
+  }
+  .form-control:focus {
+    border-color: #5C3979;
+    box-shadow: inset 0 1px 1px rgb(234, 222, 222), 0 0 8px rgb(234, 222, 222);
+  }
+
+  .header-sectiune {
+    text-align: center;
+    justify-content: center;
+    margin-top:3%;
+    margin-bottom: 3%;
+    color: #4A2E61;
+}
+.header-sectiune img {
+    width:55px;
+    height: 55px;
+    margin : 20px;
+}
+
+.butoane-modif .buton-delete {
+    float:left;
+}
+.butoane-modif .buton-update {
+    float:right;
+}
+.butoane-modif .buton-new{
+    float:left;
+}
+
+.detalii{
+    margin-top: 15px;
+}
+
+.imagini-noi h4{
+     margin:25px 0px;
+     text-align: center;
+}
+.imagini-noi{
+    text-align: center;
+}
+.imagini-noi input {
+    width:90%;
+}
+.imagini-noi .buton-new, .produs-nou .buton-new{
+    width: auto;
+    height: unset;
+    font-size: 11px;
+}
+
+.imagini-noi .buton-update{
+    width: auto;
+    height: unset;
+    font-size: 11px;
+}
+
+.container h4{
+    text-align: center;
+}
+
+.no-orders h2{
+    color:#003D3D;
+}
+.no-orders {
+    text-align: center;
+    padding:15px;
+}
+.listaadmin-comenzi{
+    color:#3A405A;
+    margin-top:15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #3A405A;
+    text-align: center;
+}
+.listaadmin-comenzi h2{
+    padding-top:7px;
+    color:#3A405A;
+}
+
+.detalii-produse{
+    background-color:#fdfaf7;
+    padding:20px 0px 0px 0px;
+    box-shadow: 0px 0px 2px #3A405A;
+}
+
+.detalii-produse h4{
+    padding-bottom:7px;
+    text-align: center;
+    color:#fdfaf7;
+}
+.detalii-produse a {
+    color:#934439;
+}
+.detalii-produse .table thead{
+    color:#F4EAE3;
+}
+.detalii-produse .table thead th{
+    border-color:#3A405A;
+}
+.detalii-produse .table tbody{
+    color:#3A405A;
+}
+.detalii-produse .table tbody td{
+    border-color:#F4EAE3;
+}
+.detalii-produse p{
+    font-size:14px;
+}
+
+.adresa {
+    text-align: center;
+    color: #3A405A;
+    padding:20px 15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #3A405A;
+}
+.adresa h5{
+    text-align: center;
+}
+.comanda-detalii{
+    margin-bottom: 20px;
+}
+
+.versiuni-form .col-lg-6 {
+    border-bottom: 1px solid #3A405A;
+    margin-bottom: 20px;
+}

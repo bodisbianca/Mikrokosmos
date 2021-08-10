@@ -1,0 +1,189 @@
+#formular-bilete{
+    color:#5C3979;
+    margin-top:15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #BFACC8;
+    text-align: center;
+}
+#formular-bilete #place-order {
+    float:right;
+}
+#formular-bilete h2{
+    margin:10px 0px;
+    text-shadow: 1px 0.5px 1px #BFACC8;
+}
+
+#clear-seats {
+    border: 1px solid #5C3979;
+    background-color: #5C3979;
+}
+#clear-seats:hover {
+    background-color: #F4F3EE;
+    color: #5C3979;
+}
+
+.desfasurareSectiune {
+    width:100%;
+    max-height:250px;
+    overflow:auto;
+    text-align: center;
+    border: 1px solid #E1AA3D;
+    padding:10px 0px;
+    background-color: #F4EAE3;
+    margin-bottom: 10px;
+}
+.desfasurareSectiune::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}    
+.desfasurareSectiune::-webkit-scrollbar-thumb {
+    background: #E1AA3D; 
+}  
+.desfasurareSectiune::-webkit-scrollbar-thumb:hover {
+    background: #D49821;  
+}
+.desfasurareSectiune::-webkit-scrollbar-track {
+    border: 1px solid #D49821;
+}
+.desfasurareSectiune input[type="checkbox"]
+{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.desfasurareSectiune label{
+    text-align: center;
+    cursor: pointer;
+    background-color: #B898C3;
+    transition: background-color 0.3s ease 0s;
+    width: 10px;
+    height: 10px;
+    margin: 0px;  
+}
+.desfasurareSectiune input[type="checkbox"]:checked + label{
+  background-color: #ffffff;
+}
+
+.desfasurareSectiune .zona-vip {
+    background-color: #5C3979;
+    width: 25px;
+    height: 25px;
+}
+.desfasurareSectiune .rezervat{
+    background-color:rgb(53, 51, 51);
+    cursor: unset;
+    opacity: 0.2;
+}
+
+.detalii-zona{
+    border-top: 1px solid #5C3979;
+    padding: 10px 0px;
+}
+
+.detalii-concert {
+    border:unset;
+    padding-top:5px;
+}
+
+.detalii-zona img{
+    width:90%;
+    margin:10px 0px;
+}
+
+.detalii-zona ul {
+    font-size: 13px;
+    margin: unset;
+  }
+
+.detalii-zona li{
+display: inline ;
+list-style-type: circle;
+margin-right: 8px;
+}
+
+.detalii-zona li::before {
+content: "•"; 
+padding-right: 8px;
+}
+
+.detalii-zona span {
+margin-right: 8px;
+}
+
+#zona-selectata {
+    font-size: 15px;
+}
+
+#observatie {
+    margin-top:10px;
+    font-size:10px;
+}
+#clear-seats {
+    float:left;
+}
+
+
+
+/* LISTA CONCERTE */
+
+.lista-concerte {
+    margin:20px;
+}
+
+.listing-concert {
+    background-color: #4A2E61;
+    margin:10px 60px;
+    padding: 10px;
+    color: #fdfaf7;
+}
+
+.listing-concert a{
+    color:#fdfaf7;
+}
+
+.listing-concert .poster-concert, .listing-concert .buton-rezervare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listing-concert .buton {
+    height:40px;
+    background-color: #4A2E61;
+    border-color: #f4eae3;
+    color:#ffffff;
+}
+
+.listing-concert .buton:hover {
+    background-color: #f4eae3;
+    color:#4A2E61;
+}
+
+.listing-concert h4{
+    margin:15px 0px;
+    color: #E1AA3D;
+    text-shadow: 0.5px 0.5px 1px #ffffff;
+}
+
+.poster-concert img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-concert {
+    list-style-type: none;
+}
+
+.info-concert li{
+    margin:5px 0px;
+}
+
+.info-concert i{
+    margin-right:5px;
+}
+
+.rezervari-bilete {
+    margin-bottom: 30px;
+}
+

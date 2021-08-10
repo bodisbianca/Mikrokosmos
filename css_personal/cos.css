@@ -1,0 +1,129 @@
+.titlu-cos{
+    color:#5C3979;
+}
+.buton {
+    float:right;
+}
+
+/* COS PRODUSE */
+
+.produse {
+    background-color:#b898c3b9;
+    margin-bottom: 20px;
+    padding:20px 15px;
+}
+.produse h3{
+    padding-bottom:7px;
+}
+.produse, .produse a {
+    color:#fdfaf7
+}
+.produse .table thead{
+    color:#5C3979;
+}
+.produse .table thead th{
+    border-color:#5C3979;
+}
+.produse .table tbody{
+    color:#5C3979
+}
+
+.adresa {
+    color:#5C3979;
+    text-align: justify;
+    color: #5C3979;
+    margin-bottom: 20px;
+    padding:20px 15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #BFACC8;
+}
+.adresa h3 {
+    padding-bottom:15px;
+    border-bottom: 1px solid #5C3979;
+}
+.adresa input[type=number] {
+    width:70px;
+}
+.form-control {
+  border-radius: 0;
+  border: 1px solid #5C3979;
+  font-size: 13px;
+ 
+}
+.form-control:focus {
+  border-color: #5C3979;
+  box-shadow: inset 0 1px 1px rgb(234, 222, 222), 0 0 8px rgb(234, 222, 222);
+}
+#shopping-cart .row{
+    margin:unset;
+}
+
+/* COS BILETE */
+.bilete{
+    background-color:#4A2E61;
+    margin-bottom: 20px;
+    padding:20px 15px;
+}
+.bilete h3{
+    padding-bottom:7px;
+}
+.bilete, .bilete a {
+    color:#fdfaf7
+}
+.bilete #denumire-concert{
+    font-size:20px;
+}
+.bilete .table thead{
+    color:#fdfaf7;
+}
+.bilete .table thead th{
+    border-color:#B898C3;
+}
+.bilete .table tbody{
+    color:#B898C3;
+    
+}
+.bilete .titlu-cos{
+    color:#B898C3;
+}
+
+
+
+.empty-cart {
+    text-align: center;
+    justify-content: center;
+    margin-top:3%;
+    margin-bottom: 3%;
+    color: #4A2E61;
+}
+.empty-cart img {
+    width:55px;
+    height: 55px;
+    margin : 20px;
+}
+
+.empty-cart .buttons{
+    display: flex;
+    justify-content: center;
+}
+.empty-cart .buton {
+    margin:20px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color:#B898C3;
+    border:1px solid #B898C3;
+}
+.empty-cart .buton:hover{
+    background-color:#fdfaf7;
+    color:#B898C3;
+}
+
+.ticket-cart .buton {
+    background-color:#4A2E61;
+    border:1px solid #4A2E61;
+}
+.ticket-cart .buton:hover {
+    background-color:#fdfaf7;
+    color:#4A2E61;
+}

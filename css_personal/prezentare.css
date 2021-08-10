@@ -1,0 +1,92 @@
+
+.row {
+    justify-content: center;
+    margin: 0px 20px 20px 20px; 
+}
+
+/* VIDEOCLIPURI */
+.video {
+    background-color:  #E1AA3D;
+    padding:20px;
+}
+.detalii-video {
+    display: flex;
+    height:fit-content;
+    align-self: center;
+}
+.detalii-video div{
+    text-align: center;
+    color: #5C3979;
+    padding:20px 15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #E1AA3D;
+}
+.detalii-video p{
+    color:#E1AA3D;
+}
+
+.titlu {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    color: #55346F;
+    letter-spacing: 1px;
+}
+.titlu h3{
+    text-shadow: 1px 0.5px 1px #ffffff;
+}
+.titlu p{
+    font-size:12px;
+}
+
+/* INDEX DISCOGRAFIE*/
+
+.album {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.album img{
+    width:300px;
+    height: auto;
+    box-shadow: 0px 0px 4px #55346F;
+}
+
+.detalii-album{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #E1AA3D;
+}
+
+.album:hover .detalii-album {
+    opacity: 1;
+    box-shadow: 0px 0px 5px #E1AA3D;
+  }
+
+.detalii-album .informatii {
+    color:#fdfaf7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.detalii-album .informatii a{
+    text-decoration: none;
+    color: #fdfaf7;
+    transition: .3s ease;
+}
+
+.detalii-album .informatii a:hover{
+    color: #5C3979;
+}

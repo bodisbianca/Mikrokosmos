@@ -1,0 +1,235 @@
+.container h2{
+    text-align: center;
+    color:#5C3979;
+    letter-spacing: 1px;
+}
+.logo img{
+    width:40px;
+    height: 40px;
+    margin:15px;
+}
+
+/* INDEX PROFIL */
+h5{
+    letter-spacing: 1px;;
+}
+.header-profil {
+    text-align: center;
+    justify-content: center;
+    margin-top:3%;
+    margin-bottom: 3%;
+    color: #4A2E61;
+}
+.header-profil img {
+    width:55px;
+    height: 55px;
+    margin : 20px;
+}
+.sectiuni-profil {
+    justify-content: center;
+    text-align: center;
+}
+.sectiuni-profil div{
+    background-color: #008C99;
+    padding:20px 10px;
+    margin:10px;
+    color: white;
+    height:auto;
+}
+.sectiuni-profil .buton {
+    border: 1px solid #F4EAE3;
+}
+.sectiuni-profil h5{
+    margin:5px 0px 10px 0px;
+}
+.deconectare {
+    font-size: 13px;
+    text-align: center;
+    transition: color 0.3s ease 0s;
+    text-decoration: none;
+    margin-top:10px;
+}
+.deconectare a{
+      color: #5C3979;
+}
+.deconectare :hover{
+     color: #5C3979;
+}
+.deconectare :hover {
+    color: #E1AA3D;
+}
+
+
+/* ACTUALIZARE SI VIZUALIZARE PROFIL */
+.alert{
+    margin:5px 20px;
+}
+.alert a{
+    color:inherit;
+}
+.row {
+    margin:0px 20px;
+    margin-bottom: 20px;
+}
+.profil .buton-back{
+    margin:0px 20px;
+}
+.actualizare {
+    color:#5C3979;
+    text-align: center;
+    padding:20px 20px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #008C99;
+}
+.actualizare form {
+    margin:30px 0px;
+}
+.date-actuale {
+    background-color:#008C99;
+    padding:20px 20px;
+    color: #003D3D;
+    font-size:17px;
+}
+.date-actuale h2{
+    color:#fdfaf7;
+}
+.date-actuale ul{
+    list-style-type: none;
+    margin:30px 0px;
+}
+.date-actuale li{
+    margin:10px;
+}
+.date-actuale li span {
+    margin:0px 10px;
+    color: #fdfaf7;
+}
+
+/*VIZUALIZARE COMENZI*/
+.comenzi .buton-back{
+    margin:unset;
+}
+.lista-comenzi{
+    color:#008C99;
+    margin-top:15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #008C99;
+    text-align: center;
+}
+.lista-comenzi h2{
+    padding-top:7px;
+    color:#004B52;
+}
+.lista-comenzi a{
+    color:#008C99;
+}
+.lista-comenzi .table thead{
+    background-color: #004B52;
+    color:#fdfaf7;
+}
+.lista-comenzi .table thead th{
+    border-color:#004B52;
+}
+.lista-comenzi .table tbody{
+    color:#004B52;
+}
+.lista-comenzi .table tbody td{
+    border-color:#F4EAE3;
+}
+
+
+.comanda-detalii{
+    margin-top:15px;
+}
+.comanda-detalii .row{
+    margin:unset;
+}
+
+
+.detalii-produse{
+    background-color:#fdfaf7;
+    padding:20px 0px 0px 0px;
+    box-shadow: 0px 0px 2px #004B52;
+}
+.detalii-produse h4{
+    padding-bottom:7px;
+    text-align: center;
+    color:#004B52;
+}
+.detalii-produse a {
+    color:#004B52;
+}
+.detalii-produse .table thead{
+    color:#fdfaf7;
+    background-color: #008C99;
+}
+.detalii-produse .table thead th{
+    border-color:#008C99;
+}
+.detalii-produse .table tbody{
+    color:#004B52;
+}
+.detalii-produse .table tbody td{
+    border-color:#008c9971;
+}
+.detalii-produse p{
+    font-size:14px;
+}
+
+
+
+
+.adresa {
+    text-align: center;
+    color: #008C99;
+    padding:20px 15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #008C99;
+}
+.adresa h4 {
+    padding-bottom:7px;
+    text-align: center;
+}
+.adresa .table tbody td{
+    border:unset;
+}
+
+/* LISTA REZERVARI */
+.rezervari .buton-back{
+    margin:unset;
+    margin-bottom: 15px;
+}
+.lista-rezervari{
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #008C99;
+}
+.table td, .table th {
+    vertical-align:middle;
+}
+.lista-rezervari .table thead{
+    color:#F4EAE3;
+    background-color: #008C99;
+}
+.lista-rezervari a{
+    color:#008C99;
+}
+.lista-rezervari #denumire-concert{
+    font-size:20px;
+}
+.lista-rezervari table{
+    color:#003D3D;
+}
+
+.no-tickets h2{
+    color:#003D3D;
+}
+.no-tickets {
+    text-align: center;
+    padding:15px;
+}
+.lista-rezervari table tbody{
+    font-size:15px; 
+}
+.lista-rezervari p{
+    font-size:14px;
+}

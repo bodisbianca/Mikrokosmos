@@ -1,0 +1,80 @@
+.form-icons {
+	color:#5C3979;
+	padding: revert;
+	width:10%;
+}
+
+.formular-signup .form-icons {
+  color:#B898C3;
+}
+
+.formular-login, .formular-signup {
+	padding:25px;
+	align-items:center;
+  text-align: center;
+  margin: 25px;
+}
+
+.formular-login {
+  background-color: #B898C3;
+}
+.formular-login .buton {
+    border: 1px solid #5C3979;
+    background-color: #5C3979;
+    color: #F4F3EE;
+    transition: background-color 0.3s ease 0s;
+  }
+.formular-login .buton :hover {
+    background-color: #F4F3EE;
+    color: #5C3979;
+  }
+.formular-login h2{
+	color:#5C3979;
+}
+
+
+.formular-signup {
+  padding: 25px 10px;
+  background-color: #5C3979;
+}
+.formular-signup span {
+  padding: 5px; 
+}
+.formular-signup .buton {
+  border: 1px solid #B898C3;
+  background-color: #B898C3;
+  color: #F4F3EE;
+  transition: background-color 0.3s ease 0s;
+}
+.formular-signup .buton :hover {
+  background-color: #F4F3EE;
+  color: #B898C3;
+}
+.formular-signup h2{
+color:#B898C3;
+}
+
+
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #5C3979;
+}
+.form-control:focus {
+  border-color: #5C3979;
+  box-shadow: inset 0 1px 1px rgb(234, 222, 222), 0 0 8px rgb(234, 222, 222);
+}
+
+#eroare {
+  font-weight: bold;
+  color:rgb(197, 9, 9);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img{
+  width: 80px;
+  height: 80px;
+}

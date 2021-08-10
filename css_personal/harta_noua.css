@@ -1,0 +1,190 @@
+
+.stadion {
+  margin-top:15px;
+}
+
+.scena {
+  background-color:#fdfdfd;
+  width:35px;
+  height:80px;
+}
+
+.gazon {
+    text-align: center;
+    margin: 0px 15px;
+}
+
+
+.peluza-gazon, .zonaNord, .zonaSud, .sectiuneVIP, .gazon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.peluza-gazon {
+  margin: 10px 0px;
+}
+
+.sectiune1Tribuna, .sectiune2Tribuna, .sectiune1Peluza, .sectiune2Peluza, .sectiune2PeluzaColt, .sectiune1PeluzaColt {
+    text-align: center;
+    margin:5px;
+    flex-wrap: wrap;
+}
+
+.sectiune1Tribuna input[type="radio"], .sectiune2Tribuna input[type="radio"], 
+.sectiune1Peluza input[type="radio"], .sectiune2Peluza input[type="radio"], 
+.sectiune1PeluzaColt input[type="radio"], .sectiune2PeluzaColt input[type="radio"],
+.sectiuneVIP input[type="radio"],
+.gazon input[type="radio"]
+{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.sectiuneVIP label {
+  text-align: center;
+  cursor: pointer;
+  background-color: #5C3979;
+  color:#ffffff;
+  font-size: 11px;
+  transition: background-color 0.3s ease 0s;
+  width: 300px;
+  height: 30px;
+  margin:0px;
+}
+.sectiuneVIP input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #5C3979;
+}
+
+
+.sectiune1Tribuna label, .sectiune1PeluzaColt label {
+    text-align: center;
+    cursor: pointer;
+    background-color: #004E4E;
+    color:#ffffff;
+    font-size: 11px;
+    transition: background-color 0.3s ease 0s;
+    width: 300px;
+    height: 30px;
+    margin:0px;
+}
+.sectiune1Tribuna input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #004E4E;
+}
+.sectiune1PeluzaColt label {
+  background-color: #B898C3;
+  width: 130px;
+}
+.sectiune1PeluzaColt input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #B898C3;
+}
+
+
+
+
+.sectiune2Tribuna label, .sectiune2PeluzaColt label {
+    text-align: center;
+    cursor: pointer;
+    background-color: #008C99;
+    color:#ffffff;
+    font-size: 11px;
+    transition: background-color 0.3s ease 0s;
+    width: 300px;
+    height:50px;
+    margin:0px;
+}
+.sectiune2Tribuna input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #008C99;
+}
+.sectiune2PeluzaColt label {
+  background-color: #B898C3;
+  width: 130px;
+}
+.sectiune2PeluzaColt input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #B898C3;
+}
+
+
+
+.sectiune1Peluza {
+    width:50px;
+    flex-wrap: wrap;    
+    padding:1px;
+}
+.sectiune1Peluza label{
+    text-align: center;
+    cursor: pointer;
+    background-color: #B898C3;
+    color:#ffffff;
+    font-size: 11px;
+    transition: background-color 0.3s ease 0s;
+    width: 30px;
+    height: 200px;
+    margin: 0px;  
+
+}
+.sectiune1Peluza input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #B898C3;
+}
+
+
+.sectiune2Peluza {
+    width:50px;
+    flex-wrap: wrap;
+}
+.sectiune2Peluza label {
+    text-align: center;
+    cursor: pointer;
+    background-color: #B898C3;
+    color:#ffffff;
+    font-size: 11px;
+    transition: background-color 0.3s ease 0s;
+    width: 50px;
+    height: 200px;
+    margin: 0px;  
+}
+.sectiune2Peluza input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #B898C3;
+}
+
+
+
+.gazon-placeholder {
+  text-align: center;
+  background-color: #E1AA3D;
+  color:#ffffff;
+  font-size: 11px;
+  opacity:0.8;
+  width: 280px;
+  height: 180px;
+  margin:10px 10px;
+}
+.gazon label{
+  text-align: center;
+  cursor: pointer;
+  background-color: #E1AA3D;
+  color:#ffffff;
+  font-size: 11px;
+  transition: background-color 0.3s ease 0s;
+  width: 200px;
+  height: 180px;
+  margin:0px 5px;
+}
+.gazon input[type="radio"]:checked + label{
+  background-color: #ffffff;
+  color: #E1AA3D;
+}
+.gazon-vip label {
+  width: 60px;
+  height: 180px;
+}
+

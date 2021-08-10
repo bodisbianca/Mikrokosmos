@@ -1,0 +1,341 @@
+.buton {
+    background-color: #DF8C7C;
+    border-color:#DF8C7C;
+}
+.buton:hover {
+    color: #DF8C7C;
+}
+
+.buton-back {
+    background-color: #3A405A;
+    border:  1px solid #3A405A;
+}
+.buton-back:hover{
+    color:#3A405A;
+}
+.buton-new {
+    background-color: #AEC5EB;
+    border: 1px solid #AEC5EB;
+    color:#3A405A;
+    width:auto;
+    height:40px;
+    font-size:14px;
+}
+.buton-new:hover{
+    color:#AEC5EB;
+}
+.buton-delete {
+    background-color: #934439;
+    border: 1px solid #934439;
+    color:#fdfaf7;
+}
+.buton-delete:hover{
+    color:#934439;
+}
+.buton-update{
+    text-align: center;
+}
+
+#update-sectiune{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.butoane-modif .buton {
+    float:right;
+}
+.butoane-modif .buton-delete {
+    float:left;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+
+.formular-sectiune label{
+    font-size:15px;
+}
+.formular-sectiune .form-group input{
+    width:100px;
+}
+.detalii-zona {
+    border-top: none;
+    border-bottom: 1px solid #5C3979;
+    margin-bottom: 10px;
+}
+.formular-actualizare {
+    border-top: 1px solid #5C3979;
+    margin-bottom: 20px;
+}
+.formular-actualizare h5{
+    margin-top:10px;
+}
+
+
+select.form-control{
+    display:inline-block; 
+    font-size:15px;
+    height: 32px;
+}
+.new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new .form-group{
+    display: flex;
+}
+.new-stadium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding:20px 0px;
+}
+
+.formular-concert{
+    margin-top:15px;
+    padding:20px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #BFACC8;
+    width: fit-content;
+}
+.formular-concert h4{
+    color:#3A405A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formular-concert .form-icons{
+    width:fit-content;
+}
+
+.formular-concert label{
+    font-size:15px;
+}
+.formular-concert select {
+    width:250px;
+}
+.concert-nou{
+    width:80%;
+}
+
+.concert-update {
+    display: flex;
+    padding:0px 20px;
+    justify-content: center;
+}
+.concert-update form{
+    margin:25px 0px;
+    width: 100%;
+}
+.concert-update .form-group{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.concert-update .form-group input{
+    width:100%;
+}
+.concert-update h4{
+    margin-bottom: 50px;
+}
+
+
+.info-sectiune {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.info-sectiune .form-group input{
+    width:80px;
+    border: 0;
+    margin:0px 10px;
+}
+
+.info-sectiune .form-group #orientare, .info-sectiune .form-group #cod_num{
+    width:30px;
+    text-align: center;
+}
+
+.form-stadion{
+    width:50%;
+    padding:20px 0px;
+}
+
+
+.sectiuni-profil div{
+    background-color: #E9AFA3;
+}
+
+.sectiuni-profil h5{
+    color: #3A405A;
+    font-weight: bold;
+}
+
+.sectiuni-admin .buton{
+    font-size:13px;
+
+}
+
+.table{
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #685044;
+}
+.table td, .table th {
+    vertical-align:middle;
+}
+.table thead{
+    color:#F4EAE3;
+}
+.table a{
+    color:#DF8C7C;
+}
+.table #denumire-concert{
+    font-size:20px;
+}
+.table table{
+    color:#685044;
+}
+
+.header-update {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.header-update img{
+    height: 30px;
+    width: 30px;
+    margin:0px;
+    margin-bottom: 10px;
+}
+
+.date-actuale {
+    margin-top: 15px;
+    background-color: #DF8C7C;
+}
+.date-actuale li{
+    color: #3A405A;
+}
+
+.formular-login{
+    background-color: #AEC5EB;
+}
+.form-icons {
+	color:#3A405A;
+}
+
+.formular-signup{
+    background-color: #3A405A;
+}
+.formular-signup .form-icons {
+    color:#AEC5EB;
+}
+.formular-login .buton {
+    border: 1px solid #3A405A;
+    background-color: #3A405A;
+}
+.formular-login .buton :hover {
+    color: #3A405A;
+  }
+.formular-login h2{
+	color:#3A405A;
+}
+.formular-signup .buton {
+    border: 1px solid #AEC5EB;
+    background-color: #AEC5EB;
+    color: #F4F3EE;
+    transition: background-color 0.3s ease 0s;
+  }
+  .formular-signup .buton :hover {
+    background-color: #F4F3EE;
+    color: #AEC5EB;
+  }
+  .formular-signup h2{
+  color:#AEC5EB;
+  }
+
+.album-nou {
+    width: unset;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.album-nou .link input {
+    width:300px;
+}
+.album-nou textarea {
+    margin:0px 15px;
+    width:600px;
+}
+
+.descriere-album {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descriere-album label{
+    align-self: center;
+}
+
+#titlu-principal .fas{
+    color:#3A405A;
+    font-size: 40px;
+    margin:30px;
+}
+
+#buton-album-nou{
+    margin-top:40px;
+    text-align: center;
+}
+
+.video-nou{
+    width:60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.video-nou .form-group input {
+    width: 100%;
+}
+.video-nou select {
+    width:100%;
+    border:1px solid 
+}
+
+#informatii-bio {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.subcapitol-nou{
+    width:70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.subcapitol-nou #lbl_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .subcapitol-nou textarea{
+     width:100%;
+     overflow-y: scroll;
+ }
+
+ .poster {
+     text-align: center;
+ }
+ .poster img{
+     width:60%;
+     height: auto;
+     border:1px solid #F4EAE3;
+ }
+
+ .date-concert {
+     text-align: center;
+ }

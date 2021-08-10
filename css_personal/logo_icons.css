@@ -1,0 +1,77 @@
+/* DESIGN LOGO */
+  .logo-navbar {
+    display: flex;
+    font-size:20px;
+  }
+  
+  .logo-navbar img {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    margin-right:5px;
+  }
+
+  .logo-navbar a{
+    text-decoration: none;
+    color: #5C3979;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  
+    /* DESIGN ICONS */
+
+  .profile_cart {
+    display: flex;
+    transition: color 0.3s ease 0s;
+    color: #5C3979;
+
+  }
+  .profile_cart a {
+    color: #5C3979;    
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+  .profile_cart :hover {
+    color: #E1AA3D;
+  }
+
+  .fa-ticket {
+    font-size: 18px;
+  }
+
+  /* EFECTE MENIU ON HOVER */
+  .meniu-bar a, .meniu-sub-bar li {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .meniu-vertical a:hover, .meniu-vertical .closebtn:hover, .meniu-vertical a:focus, .meniu-inner li:hover{
+    color: #E1AA3D;
+  }
+
+
+  /* SOCIAL MEDIA */
+.socialmedia .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #5C3979;
+}
+.fa:hover {
+  color: #E1AA3D;
+}
+
+.socialmedia a {
+  display: inline-block;
+}
+
+/* RESPONSIVE MENIU - LOGO */
+@media screen and (max-width:975px) {
+  .profile_cart {
+    position:absolute;
+    right: 0;
+  }
+}

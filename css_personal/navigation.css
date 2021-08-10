@@ -1,0 +1,195 @@
+/* MENIU DE NAVIGARE ORIZONTAL PRINCIPAL */
+.nav-links {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+.nav-links ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+  
+}
+.nav-links a {
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #5C3979;
+  width: auto;
+  font-size: 13px;font-weight: bold;
+}
+.nav-links li {
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  width: auto;
+  text-align: center;
+}
+
+
+
+/* MENIU DE NAVIGARE MAGAZIN - CATEGORII DE PRODUSE */
+#container_categ_mag {
+  padding-bottom: 65px;
+  padding-top: 65px;
+}
+
+.categorii_magazin, .subcategorii_magazin {
+  text-align: center;
+  font-size: 13px;
+  color: #5C3979;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.categorii_magazin li, .subcategorii_magazin li {
+  color: #5C3979;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;  
+  width: fit-content;
+  display: inline;
+  cursor: pointer;
+}
+.categorii_magazin li a{
+    color: #5C3979;
+    text-decoration:none;
+}
+.categorii_magazin ul {
+  list-style:none;
+  font-weight: bold;
+}
+
+
+/* MENIU DE NAVIGARE MAGAZIN - SUBCATEGORII DE PRODUSE */
+.subcategorii_magazin ul {
+  list-style:none;
+}
+.subcategorii_magazin li{
+  width: fit-content;
+  display: inline;
+  cursor: pointer;
+}
+.subcategorii_magazin {
+  font-size: 10px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.subcategorii_magazin li a{
+  color: #5C3979;
+  text-decoration:none;
+  
+}
+
+
+/* EFECTE HOVER CATEGORII */
+.nav-links li a:hover,  /*categorii principale*/
+.categorii_magazin a:hover, .categorii_magazin li:hover, /*categorii produse din magazin*/
+.subcategorii_magazin a:hover, .subcategorii_magazin li:hover /* subcategorii produse */
+  {
+  color: #E1AA3D;
+  border-bottom: 1px solid #E1AA3D;  
+  transition: all 0.3s ease 0s;
+  }
+.curent { /* modificare culoare categorie curentă*/
+  border-bottom: 1px solid #E1AA3D;
+  color:#E1AA3D;
+}
+
+
+
+
+/* MENIU VERTICAL */
+.meniu-icon {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: color 0.3s ease 0s;
+}
+.meniu-icon:hover {
+  color: #E1AA3D;
+}
+.meniu-vertical {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: #EADEDE;
+  background-color: #4A2E61;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  transition: 0.4s;
+  border-right: 0.5px solid white;
+}
+.meniu-content {
+  position: relative;
+  top: 10%;
+  width: auto;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 10%;
+}
+.meniu-vertical a {
+  width: fit-content;
+  margin: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #EADEDE;
+  display: block;
+  transition: color 0.3s;
+}
+.meniu-inner {
+  margin-left: 25px;
+  width: fit-content;
+}
+.meniu-inner li{
+  list-style: none;
+  font-size: 16px;
+}
+.meniu-vertical .closebtn {
+  position: absolute;
+  top: 4%;
+  bottom: auto;
+  right: 23px;
+  width: auto;
+  font-size: 25px;
+  transition: color 0.3s;
+}
+
+/* LINIE SEPARATOARE DIN MENIU LATERAL */
+.separator-meniu-first {
+  width:85%;
+  border-bottom: solid #B49FCC 1px;
+  border-top: solid #B49FCC 1px;
+}
+.separator-meniu {
+  width:85%;
+  border-bottom: solid #B49FCC 1px;
+}
+
+
+
+/* RESPONSIVE MENIU */
+@media screen and (max-width:975px) {
+  .nav-links {
+    display: none;
+  }
+  header {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width:975px){
+  .meniu-icon {
+    display:none;
+  }
+  #meniu-vert {
+    display: none;
+  }
+}

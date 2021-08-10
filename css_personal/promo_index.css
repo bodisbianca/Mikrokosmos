@@ -1,0 +1,19 @@
+#promo-slideshow {
+    border: solid #4A4063 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+.promo-index {
+    background-color:#4A4063;
+}
+
+#promo-img {
+    float: right;
+    margin: 15px;
+    width: 35%;
+    height: auto;
+    display: block;
+}

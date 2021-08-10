@@ -1,0 +1,133 @@
+#back{
+    margin-left: 5px;
+}
+
+.container {
+    padding:0px;
+}
+
+.prezentare {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.album {
+    background-color: #fdfaf7;
+    padding: 10px;
+    margin:5px;
+    text-align: center;
+    box-shadow: 0px 0px 2px #B898C3;
+}
+
+.album a {
+    text-decoration: none;
+    color:#4A2E61;
+    transition: 0.3s ease;
+}
+.album a h3:hover, .album a h5:hover {
+    color:#B898C3;
+}
+
+.meniu-album{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.row .buton-back{
+    width:180px;
+    height:70px;
+    margin-top:5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.row .buton-back:hover, .container .buton:hover{
+    background-color: #fdfaf7;
+}
+.row .buton {
+    background-color:#B898C3;
+    border-color: #B898C3;
+    width:auto;
+    height:40px;
+}
+.row .buton:hover {
+    color: #B898C3;
+}
+
+.versiuni .buton-back{
+    width:140px;
+    height:70px;
+}
+
+.coperta-album {
+    background-color: #4A2E61;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+.coperta-album img{
+    width:450px;
+    height: auto;
+}
+.tracklist img{
+    width:350px;
+}
+
+.poza-versiune img{
+    width:650px;
+    height: auto;
+}
+.poza-versiune{
+    padding:0px;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    text-shadow: 0px 0px 2px black;
+}
+#versiuni-slideshow, #versiune-slideshow{
+    background-color: #4A2E61;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+.titlu-album{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    color:#4A2E61;
+}
+
+.stream {
+    margin-bottom: 10px;
+}
+.stream a{
+    color:#4A2E61;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+    margin:0px 5px;
+}
+.stream a:hover{
+    color:#B898C3;
+}
+.stream p{
+    margin:5px;
+    font-size:12px;
+}
+.descriere {
+    min-height:400px;
+}
+.descriere-album{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    word-wrap: normal;
+    width:500px;
+    padding:20px;
+    text-align: justify;
+    background-color: #4A2E61;
+    color:#fdfaf7;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}

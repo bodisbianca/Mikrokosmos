@@ -1,0 +1,54 @@
+.titlu {
+    text-align: center;
+    margin-top: 40px;
+    color: #55346F;
+    letter-spacing: 1px;
+}
+.titlu h3{
+    text-shadow: 1px 0.5px 1px #ffffff;
+}
+.titlu p{
+    font-size:12px;
+}
+
+
+.titlu-subcapitol  {
+    display: flex;
+    width:fit-content;
+    align-self: center;
+    color: #55346F;
+    padding:10px 15px;
+    background-color: #fdfaf7;
+    box-shadow: 0px 0px 2px #E1AA3D;
+    margin-bottom: 40px;
+    
+}
+
+.titlu-subcapitol h4{
+    margin:0px;
+    letter-spacing: 1px;
+}
+
+.imagine-biografie{
+    background-color: #E1AA3D;
+}
+
+.imagine-biografie img{
+    width:auto;
+    height: 500px;
+}
+
+.informatii-biografie{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    word-wrap: normal;
+    padding:20px;
+    text-align: justify;
+    background-color: #4A2E61;
+    color:#fdfaf7;
+}
+
+.informatii-biografie p{
+    font-size: 12px;
+}
